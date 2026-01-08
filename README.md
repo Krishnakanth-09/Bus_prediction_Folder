@@ -12,14 +12,14 @@ This project addresses the problem by using a classification-based ML approach t
 
 Dataset Description :
 
-The dataset consists of multiple colleges from the same city with the following attributes:
+##The dataset consists of multiple colleges from the same city with the following attributes:
 
-Institution type
-College name
-Distance
-Bus route
-Shift (Morning / Evening)
-Bus capacity
+1.Institution type
+2.College name
+3.Distance
+4.Bus route
+5.Shift (Morning / Evening)
+6.Bus capacity
 The target variable is Bus Name, which represents the assigned bus.
 
 Model Output :
