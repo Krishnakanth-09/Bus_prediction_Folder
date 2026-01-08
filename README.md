@@ -1,23 +1,27 @@
-# Bus Prediction System 🚌
+Project Overview :
 
-## Project Overview
-This project builds a machine learning model to predict bus allocation for colleges based on historical transportation data.
+This project focuses on building an end-to-end Machine Learning solution to automate bus assignment for colleges within a city using structured institutional data. The objective is to reduce manual effort in transport planning and improve operational efficiency by predicting the appropriate bus based on key features.
 
-## Problem Statement
-Manual bus assignment is time-consuming and error-prone. This system automates bus allocation using ML.
+Problem Statement :
 
-## Tech Stack
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Jupyter Notebook
+Manual allocation of buses for educational institutions can be:
+Time Consuming
+Error Prone
+Difficult to scale with increasing colleges
+This project addresses the problem by using a classification-based ML approach to predict the assigned bus using historical data.
 
-## Workflow
-1. Data preprocessing
-2. Feature encoding
-3. Model training
-4. Prediction
+Dataset Description :
 
-## Sample Output
-The model predicts the appropriate bus based on input features such as distance, shift, and capacity.
+The dataset consists of multiple colleges from the same city with the following attributes:
+
+Institution type
+College name
+Distance
+Bus route
+Shift (Morning / Evening)
+Bus capacity
+The target variable is Bus Name, which represents the assigned bus.
+
+Model Output :
+
+The trained model predicts the bus assignment for a given college based on input features such as route, distance, shift, and capacity.
