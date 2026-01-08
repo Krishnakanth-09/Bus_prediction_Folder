@@ -20,7 +20,9 @@ The dataset consists of multiple colleges from the same city with the following 
 4. Bus route
 5. Shift (Morning / Evening)
 6. Bus capacity
-The target variable is Bus Name, which represents the assigned bus.
+   
+**Target Variable:**  
+- Bus Name (represents the assigned bus)
 
 Model Output :
 
